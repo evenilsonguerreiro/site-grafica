@@ -1,6 +1,11 @@
 .navbar{
     background-color:purple;
 }
+.navbar-toggler{
+    background-color: white;
+    
+    
+}
 #cabeçalho .nav .nav-link{
     color: rgb(250, 247, 247);
 }
@@ -8,9 +13,11 @@
     background-color:rgb(255, 0, 179);
     color: rgb(255, 255, 255);
 }
+header img{
+    width: 150px;
+}
 .carousel img{
-    width: 1350px;
-    
+    width: 1350px;    
 }
 
 .foto-principal{
@@ -36,10 +43,33 @@
 .nav-catalago .nav-link{
     color:black;
 }
-.bg{
-    background-color: aqua;
+html{
+    font-family: 'Roboto', sans-serif;
 }
 
-body{
-    margin-bottom: 300px;
+
+#fale-conosco{
+    background-color: rgba(127, 255, 249, 0.185);
 }
+.text-color{
+    color: purple;
+}
+.btn{
+    background-color: purple;
+    color: white;
+    margin-top: 5px;
+}
+.btn:hover{
+    background-color: purple;
+    color: white;
+}
+.social-link li{
+    list-style: none;
+}
+footer{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+}
+
+
